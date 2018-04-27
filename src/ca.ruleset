@@ -83,7 +83,7 @@
         <Rule Id="SA1309" Action="None"/> <!--SA1309: A field name in C# begins with an underscore.-->
         <Rule Id="SA1310" Action="Warning"/> <!--SA1310: A field name in C# contains an underscore.-->
         <Rule Id="SA1400" Action="Warning"/> <!--SA1400: The access modifier for a C# element has not been explicitly defined. -->
-        <Rule Id="SA1401" Action="Warning"/> <!--SA1401: A field within a C# class has an access modifier other than private. -->
+        <Rule Id="SA1401" Action="None"/> <!--SA1401: A field within a C# class has an access modifier other than private. -->
         <Rule Id="SA1402" Action="Error"/> <!--SA1402: A C# code file contains more than one unique class. -->
         <Rule Id="SA1403" Action="Error"/> <!--SA1403: A C# code file contains more than one namespace. -->
         <Rule Id="SA1404" Action="None"/> <!--SA1404: A Code Analysis SuppressMessage attribute does not include a justification. -->

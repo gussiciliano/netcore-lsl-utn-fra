@@ -20,7 +20,7 @@ namespace NetcoreLslUtnFra.Repositories.Database
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-        }        
+        }
 
         private void AddTimestamps()
         {
